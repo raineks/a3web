@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="a3web.css">  <!-- linking all style changes in external style sheet -->
-  <!-- Lindsey's Code -->
-    <!-- Last updated Nov 14-->
-    <head>
-        <!-- Meta Data -->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Web Design Project" />
-        <meta name="author" content="Group 11" />
-        <title>Interplanetary Information Incorporated</title>
-        <!-- Favicon-->
-        <link rel="icon" href="Images/android-chrome-512x512.png">
-        <!-- End of Lindsey's Code -->
- <head>
-     <!-- Perry's code starts here -->
-        <!-- Header image above navbar -->
-        <div class="fadein">
-            <img src="Images/iiiheader1.png" alt="header image with the firm's name #1" id="headerimage" >
-            <img src="Images/iiiheader2.png" alt="header image with the firm's name #2" id="headerimage" >  
-            <img src="Images/iiiheader3.png" alt="header image with the firm's name #3" id="headerimage" >    
-        </div>
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-        <script>
-            $(function(){
-                $('.fadein img:gt(0)').hide();
-                setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
-            });
-        </script>
-        <!-- Perry's code ends here -->
- </head>
- <body>
- </body>
+  <head>
+  </head>
+  <body>
+      <div class="columns">
+        <ul class="price">
+          <li class="header">Basic</li>
+          <li class="grey">$ 9.99 / year</li>
+          <li>10GB Storage</li>
+          <li>10 Emails</li>
+          <li>10 Domains</li>
+          <li>1GB Bandwidth</li>
+          <li class="grey"><a href="#" class="button">Sign Up</a></li>
+        </ul>
+      </div>
+
+      <div class="columns">
+        <ul class="price">
+          <li class="header" style="background-color:#04AA6D">Pro</li>
+          <li class="grey">$ 24.99 / year</li>
+          <li>25GB Storage</li>
+          <li>25 Emails</li>
+          <li>25 Domains</li>
+          <li>2GB Bandwidth</li>
+          <li class="grey"><a href="#" class="button">Sign Up</a></li>
+        </ul>
+      </div>
+
+      <div class="columns">
+        <ul class="price">
+          <li class="header">Premium</li>
+          <li class="grey">$ 49.99 / year</li>
+          <li>50GB Storage</li>
+          <li>50 Emails</li>
+          <li>50 Domains</li>
+          <li>5GB Bandwidth</li>
+          <li class="grey"><a href="#" class="button">Sign Up</a></li>
+        </ul>
+      </div>
+  </body>
 </html>
 
