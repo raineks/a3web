@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+    - Raine Compiled the template and edited html & css & call javascript functions, to work together 
+    - navbar/ footer project names updated to match on all pages
+    - Adding in last edits and commenents for who worked/completed what - editing comments to same format
+    - adding in sources where applicable
+   -->
+
+    <!--
+    All group members scoured for errors 
+   -->
+
+
+    <!--
+    - Lindsey's Code start
+    - Last updated Dec 06
+   -->
+    <head>
+        <meta charset="utf-8" />
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Kashyyyk Habitat Mapping</title>
+        <!-- Favicon-->
+        <link rel="icon" href="Images/android-chrome-512x512.png">
+        <!-- 
+        - Rachel adding in our css 
+        - last updated 11/24
+        - Rachel updated TEAM information, content, added Grudge, added img and relative path
+        - Rachel added new css approach, nav bar, header
+         -->
+        <!--
+        - Amanda incorporating bootstrap
+         -->
+        <!-- incorporating boostrap here -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/a3web.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <!--
+    - Lindsey's Code end
+    -->
+    <body>
+        <!-- 
+        - Perry's code starts here 
+        -->
+        <!-- header updated to be more accessible (suggesstion of Rachel :)) -->
+        <!-- Header image above navbar -->
+        <header class="py-5h bg-image-full" style="background-image: url('Images/spaceheader.jpg')">
+            <div class="text-center my-5h">
+                <a href="https://lindseygrey.github.io/a3web/index.html"><h1 class="headerlogo">III</h1></a>
+                <h1 class="headerlogotext">Intergalactic Information Incorporated</h1>                
+            </div>
+        </header>
+        <!-- 
+        - Perry's code ends here
+         -->
+
+        <!-- 
+        - Amanda's Nav Code starts
+        - Last updated December 6th
+        - REFERENCE https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp
+         -->
+        <!-- new improved bootstrap navbar - now with real dropdown! -->
+        <!-- NOTE bootstrap has specific nav class syntax that it likes and it only stopped breaking when I kept their standard class names, AT -->            
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Links start- -->
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Team.html">Team</a>
+            </li>
+            <!-- Dropdown a rootin tootin working dropdown for our projects -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Projects</a>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="LindseyProject.html">Tribble Trouble</a>
+                <a class="dropdown-item" href="PerryProject.html">Project Chromatica</a>
+                <a class="dropdown-item" href="RachelProject.html">Remote Sensing on Tatooine</a>
+                <a class="dropdown-item" href="IgraineProject.html">Kashyyyk Habitat Mapping</a>
+                <a class="dropdown-item" href="AmandaProject.html">Space Cats</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Resources.html">Resources</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+            </ul>
+        </nav>
+        <!-- 
+        - end of Amanda's dropdown navbar code 
+         -->
+
+        <!-- 
+        - raine's code and content starts 
+        - last updated 12/08
+         -->
+
+
+        <header class="kh">
+            <div class="text-center my-5">
+                <h1 class="txt fs-3 fw-bolder"> Cartographic Risk Assessment </h1>
+            </div>
+        </header>
+        <div class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class = "col-sm-5">
+                        <h2> Kashyyyk Habitat Mapping </h2>
+                        <p class="lead"> The Planet of Kashyyyk's Environmental Assessment Sector requested consultation to prepare for Wookie habitat risk analysis in the event of a galactic war. By gathering and analysing spatial data, the process of mapping all viable land and developed locations was possible. Allowing further risk planning to begin. 
+                            By collecting land use, soil type, and population data, our cartographers were able to map all suitable land areas for prominent tree growth and soil density for safety. Additionally providing a basis to work with out Deep Space Analysis unit to find new planets for possible migration should the need ever arise.
+                        </p> 
+                    </div>
+                    <div class = "col-sm-5">
+                        <img src="Images/Kashyyyk_Planet.png" class = "planet" alt="kashyyk" > 
+                        <p class="mb-0 caption">The Planet of Kashyyyk, image captured using remote sensing techniques. To learn more about our Remote Sensing services check out our work on <a href= RachelProject.html>Tatooine!</a></p> <!-- using Lindseys caption class-->
+                    </div>
+                </div>   
+            </div>
+        </div>
+        <!-- images used from main page to break content - keep consistency/theme and colour schemes - inspired by linsdey project page-->
+        <div class="py-5 bg-image-full" style="background-image: url('https://scx2.b-cdn.net/gfx/news/2021/nasas-ingenuity-helico.jpg')">
+        </div>
+        <div class="py-5">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <p class="mb-0">All created maps are the property of the Kashyyyk Environmental Assessment Sector, to view mapped areas please request access <a href = KashyyykError.html>here.</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- 
+        -Raine code end
+        -lasy updated 12/088
+        -->
+
+        <!-- 
+        - Lindsey's Code
+        - updated 12/06
+         -->
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container">
+            <div class="row">
+                <div class = "col-sm-4">
+                    <h3 class= h3footer >About</h3>
+                    <ul>
+                        <li><a class= "footerlink" href="index.html">Home</a></li>
+                        <li><a class= "footerlink" href="Team.html">Team</a></li>
+                        <li><a class= "footerlink" href="Resources.html">Resources</a></li>
+                        <li><a class= "footerlink" href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class = "col-sm-4">
+                    <h3 class = h3footer>Projects</h3>
+                    <ul>
+                        <li><a class= "footerlink" href="LindseyProject.html">Tribble Trouble</a></li>
+                        <li><a class= "footerlink" href="PerryProject.html">Project Chromatica</a></li>
+                        <li><a class= "footerlink" href="RachelProject.html">Remote Sensing on Tatooine</a></li>
+                        <li><a class= "footerlink" href="IgraineProject.html">Kashyyyk Habitat Mapping</a></li>
+                        <li><a class= "footerlink" href="AmandaProject.html">Space Cats</a></li>
+                    </ul>
+                </div>
+                <div class = "col-sm-4">
+                    <h3 class = h3footer>Social</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/linden.grey/"><img class= "social" src="Images/insta.png" alt="Instagram"></a><a href="https://twitter.com/NASAPersevere/"><img class= "social" src="Images/twitter.png" alt="Twitter"></a></li>
+                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img class= "social" src="Images/youtube.png" alt="Youtube"></a><a href="https://en.wikipedia.org/wiki/Criticism_of_Facebook"><img class= "social" src="Images/facebook.png" alt="Facebook"></a></li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Group 11, 2021</p></div>
+            <div class="container"><p class="m-0 text-center text-white">Website created for Web Design and Programming Class</p></div>
+        </footer>
+        <!-- 
+        - End of Lindsey's Code
+         -->
+    </body>
+</html>
